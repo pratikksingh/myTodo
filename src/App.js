@@ -36,7 +36,7 @@ function App() {
       <div className="hero">
         <h3>To create a new note click on the +</h3>
 
-        <img className="plus" src={plus} onClick={btnNote} />
+        <img className="plus" alt="plus_button" src={plus} onClick={btnNote} />
         {note && (
           <input
             type="text"
